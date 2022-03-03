@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_29de2eb4cd744d15a9f9b76b6588415a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_29de2eb4cd744d15a9f9b76b6588415a" ></div>
+        
+</body>
+<script>    
+    
+            var map_29de2eb4cd744d15a9f9b76b6588415a = L.map(
+                "map_29de2eb4cd744d15a9f9b76b6588415a",
+                {
+                    center: [34.0881, 74.034],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0540b8930d3e4b899e195b372ba55d0e = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_29de2eb4cd744d15a9f9b76b6588415a);
+        
+    
+            var marker_6c3115029ecb4e848314cc84fe9693c5 = L.marker(
+                [34.0881, 74.034],
+                {}
+            ).addTo(map_29de2eb4cd744d15a9f9b76b6588415a);
+        
+    
+            var icon_17a3fca9b9554b3ea7998dd56a886760 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6c3115029ecb4e848314cc84fe9693c5.setIcon(icon_17a3fca9b9554b3ea7998dd56a886760);
+        
+    
+        var popup_0de389b14a464ec2969b3fff01f9725e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6615b053445246fb8c4c824a42e2c6f0 = $(`<div id="html_6615b053445246fb8c4c824a42e2c6f0" style="width: 100.0%; height: 100.0%;">Uri, J&K</div>`)[0];
+            popup_0de389b14a464ec2969b3fff01f9725e.setContent(html_6615b053445246fb8c4c824a42e2c6f0);
+        
+
+        marker_6c3115029ecb4e848314cc84fe9693c5.bindPopup(popup_0de389b14a464ec2969b3fff01f9725e)
+        ;
+
+        
+    
+    
+            var marker_8dfb8d40f7a44afabede148bcf3645be = L.marker(
+                [34.0881, 74.034],
+                {}
+            ).addTo(map_29de2eb4cd744d15a9f9b76b6588415a);
+        
+    
+            var icon_8089411251954e40a4912941947401cc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8dfb8d40f7a44afabede148bcf3645be.setIcon(icon_8089411251954e40a4912941947401cc);
+        
+    
+        var popup_f78e1c73238d4a4caaf123dec3b90ddd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f74733ae3f7841729c76c4cf3b2905b1 = $(`<div id="html_f74733ae3f7841729c76c4cf3b2905b1" style="width: 100.0%; height: 100.0%;">Uri, J&K</div>`)[0];
+            popup_f78e1c73238d4a4caaf123dec3b90ddd.setContent(html_f74733ae3f7841729c76c4cf3b2905b1);
+        
+
+        marker_8dfb8d40f7a44afabede148bcf3645be.bindPopup(popup_f78e1c73238d4a4caaf123dec3b90ddd)
+        ;
+
+        
+    
+</script>
